@@ -1,3 +1,10 @@
+# 2-5) multiplication table
+#
+# Calculate the multiplication table
+# based on the upper limit given by the user
+
+# Ask for an integer input
+# Retry if the value can't be parsed, or ( optionally ) if value is not in range
 def int_input(text='', error_text='Not a number!', range=None, range_error_text='Value out of range!'):
     while True:
         try:

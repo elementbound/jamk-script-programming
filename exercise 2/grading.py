@@ -1,3 +1,19 @@
+# 2-3) Grade calculator
+#
+# Ask two grades from the user:
+# a) exam point   (0-24)
+# b) demo points  (0-12)
+# and calculate the total based on the following table:
+#
+# 	>= 33 	=> 5
+# 	>= 29 	=> 4
+# 	>= 25 	=> 3
+# 	>= 21 	=> 2
+# 	>= 18 	=> 1
+# 	< 18   	=> 0
+
+# Ask for an integer input
+# Retry if the value can't be parsed, or ( optionally ) if value is not in range
 def int_input(text='', error_text='Not a number!', range=None, range_error_text='Value out of range!'):
     while True:
         try:

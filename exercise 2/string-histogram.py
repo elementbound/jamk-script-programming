@@ -1,3 +1,8 @@
+# 2-1) calculate characters in a string
+#
+# Give a string and search how many 'a/A' or 'e/E' letters there are in the string
+# How to count all letters in a string?
+
 from string import ascii_letters
 
 def main():

@@ -1,3 +1,9 @@
+# 2-4) read inputs
+#
+# Give integers as a command line arguments
+# and calculate the end results based on the integers
+# Use for loop for calculating the results
+
 from sys import argv
 
 def main():
