@@ -18,5 +18,10 @@ def main():
     print('a/A:', histogram['a']+histogram['A'])
     print('e/E:', histogram['e']+histogram['E'])
 
+def main_short():
+    text = input().lower()
+    print('a/A', text.count('a'))
+    print('e/E', text.count('e'))
+
 if __name__ == "__main__":
-    main()
+    main_short()
