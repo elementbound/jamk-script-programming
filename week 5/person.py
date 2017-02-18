@@ -18,6 +18,7 @@ def main():
 
     assert bill != joe
     assert bill == also_bill
+    print('Yay, asserts didn\'t fail')
 
 if __name__ == "__main__":
     main()
