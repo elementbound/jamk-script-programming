@@ -6,7 +6,7 @@ import student
 import triangle
 
 def header(text):
-    full_length = 64
+    full_length = 72
     postfix_length = full_length - 2 - len(text) - 1
 
     print('\n=', text, '=' * postfix_length)
